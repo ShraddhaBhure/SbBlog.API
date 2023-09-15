@@ -1,6 +1,6 @@
 # Blog Application
+![sbBlog.API](blogapplication.PNG)
 
-![Application Preview](link_to_application_screenshot_or_blogapplication.png)
 
 ## Overview
 
@@ -88,24 +88,4 @@ The application can be deployed to a web server or cloud hosting service, making
 
 5. **Image Upload:** Allow users to upload and manage images for their blog posts.
 
-## Getting Started
 
-- [Installation Guide](link_to_installation_guide.md): Follow these instructions to set up and run the Blog Application on your local development environment.
-
-- [User Documentation](link_to_user_documentation.md): Learn how to use the application as a user.
-
-- [Contributing Guidelines](link_to_contributing_guidelines.md): Contribute to the project by following these guidelines.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Special thanks to the open-source community for their contributions and support.
-
----
-
-**Note:** Replace the placeholders (e.g., `link_to_application_screenshot_or_logo.png`, `link_to_installation_guide.md`, `link_to_user_documentation.md`, `link_to_contributing_guidelines.md`) with actual links or content as applicable in your GitHub repository.
-
-Feel free to customize this README to match your specific project details and requirements.
