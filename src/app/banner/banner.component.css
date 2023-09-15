@@ -1,0 +1,13 @@
+.banner {
+    width: 100%; /* Adjust the width as needed, e.g., 100% for full width */
+    height: 300px; /* Adjust the height as needed, e.g., 300px */
+    /* Add any other styling you want for the banner here */
+  }
+  
+  .banner img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  

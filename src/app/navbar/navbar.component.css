@@ -1,0 +1,44 @@
+/* Custom styles for the navbar */
+.navbar {
+    background-color: #f8f9fa; /* Background color */
+    border-bottom: 1px solid #ddd; /* Border at the bottom */
+    padding: 10px 0; /* Add padding to top and bottom */
+  }
+  
+  /* Style the navbar brand (logo or text) */
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Text color */
+  }
+  
+  /* Style the menu items */
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #333; /* Text color */
+    margin: 0 15px; /* Add spacing between menu items */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  /* Change menu item color on hover */
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Change to your desired hover color */
+  }
+  
+  /* Style the mobile menu toggle button */
+  .navbar-toggler-icon {
+    background-color: #333; /* Background color of the toggle icon */
+  }
+  
+  /* Style the mobile menu button when it's active/open */
+  .navbar-toggler.collapsed .navbar-toggler-icon {
+    background-color: #333; /* Change to your desired active color */
+  }
+  
+  /* Push the menu items to the right on larger screens */
+  @media (min-width: 768px) {
+    .navbar-nav.ml-auto {
+      margin-right: 30px;
+    }
+  }
+  
