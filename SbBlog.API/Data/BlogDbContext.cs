@@ -10,6 +10,8 @@ namespace SbBlog.API.Data
             
         }
         public DbSet <Post> Posts { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
     
 }

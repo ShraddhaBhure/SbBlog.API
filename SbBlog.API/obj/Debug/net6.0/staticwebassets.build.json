@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KvPa5ZaPshZ2360a3JGJVeCwQkRGyc2g5Fnc7gUoSXI=",
+  "Source": "SbBlog.API",
+  "BasePath": "_content/SbBlog.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
