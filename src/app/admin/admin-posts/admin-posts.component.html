@@ -1,0 +1,24 @@
+<div class="container">
+  <br/>
+  <br/>
+  <h3>All Blogs Posts</h3>
+  <br/>
+  <br/>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Actions</th> 
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let post of posts">
+      <td>{{ post.title }}</td>
+      <td>
+        <a [routerLink]="['/admin/Posts', post.id]">View</a>
+      </td>
+
+    </tr>
+  </tbody>
+</table>
+</div>

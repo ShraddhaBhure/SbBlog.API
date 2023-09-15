@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+<app-banner></app-banner>
+<div class="container" *ngIf="posts">
+  <div class="row">
+    <div *ngFor="let post of posts" class="col-md-6">
+      <div class="card" style="max-width: 500px; margin: 0 auto;">
+        <img class="card-img-top" [src]="post.featuredImageUrl" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-title">{{ post.title }}</h2>
+          <br/>
+          <article class="card-text">{{ post.summary }}</article>
+          <br/>
+          <a class="btn btn-primary" (click)="viewPost(post.id)">View Blog Post</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
